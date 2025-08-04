@@ -52,5 +52,6 @@
     <menuitem id="menu_project_task_review"
               name="Task Reviews"
               parent="project.menu_projects"
-              action="action_project_task_review"/>
+              action="action_project_task_review"
+              sequence='20'/>
 </odoo>

@@ -21,4 +21,10 @@
         </field>
     </record>
 
+    <menuitem id="menu_projects_sub"
+              name="Projects"
+              parent="project.menu_projects"
+              action="project.open_view_project_all"
+              sequence='10'/>
+
 </odoo>
